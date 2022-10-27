@@ -8,14 +8,13 @@
 body {
     font-family: var(--primary-font);
     background: var(--background);
-    display: grid;
-    grid-template-rows: auto 1fr;
+    grid-template-columns: auto 1fr;
     font-size: 40px;
     font-weight: bold;
 }
 
 header {
-    position: sticky;
+    display: flex;
     top: 0;
     padding: 15px;
     height: 80px;
@@ -42,4 +41,8 @@ main {
 
 .prompt {
     padding: 5px;
+}
+
+.hide {
+    display: none;
 }

@@ -11,6 +11,7 @@ body {
     display: grid;
     grid-template-rows: auto 1fr;
     font-size: 40px;
+    font-weight: bold;
 }
 
 header {

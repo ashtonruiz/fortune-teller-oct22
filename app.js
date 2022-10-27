@@ -1,6 +1,6 @@
-/* Imports */
-
 /* Get DOM Elements */
+const answerBtn = document.getElementById('answer');
+const resetBtn = document.getElementById('reset');
 
 /* State */
 

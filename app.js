@@ -39,3 +39,5 @@ answerBtn.addEventListener('click', () => {
     const randomChoice = responses[randInt];
     responseP.textContent = randomChoice;
 });
+
+resetBtn.addEventListener('click', toggleSections);

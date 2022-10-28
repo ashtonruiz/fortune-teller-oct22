@@ -46,3 +46,18 @@ main {
 .hide {
     display: none;
 }
+
+button {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-align: center;
+    height: 45px;
+    width: 90px;
+    margin: 5px;
+    font-size: 22px;
+}
+
+input {
+    height: 45px;
+    width: 200px;
+}

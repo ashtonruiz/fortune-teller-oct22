@@ -1,19 +1,20 @@
 :root {
-    --background: rgb(224, 234, 247);
-    --header-background: rgb(254, 251, 245);
-    --primary-font: Corbel, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans',
-        'Bitstream Vera Sans', 'Liberation Sans', Verdana, 'Verdana Ref', sans-serif;
+    --background: rgb(119, 111, 129);
+    --header-background: rgb(181, 177, 189);
+    --primary-font: 'Amatic SC', cursive, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans',
+        'DejaVu Sans', 'Bitstream Vera Sans', 'Liberation Sans', Verdana, 'Verdana Ref', sans-serif;
 }
 
 body {
     font-family: var(--primary-font);
     background: var(--background);
-    display: grid;
-    grid-template-rows: auto 1fr;
+    grid-template-columns: auto 1fr;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 header {
-    position: sticky;
+    display: flex;
     top: 0;
     padding: 15px;
     height: 80px;
@@ -32,4 +33,31 @@ header .logo {
 
 main {
     padding: 20px;
+}
+
+.fortune {
+    padding: 20px;
+}
+
+.prompt {
+    padding: 5px;
+}
+
+.hide {
+    display: none;
+}
+
+button {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-align: center;
+    height: 45px;
+    width: 90px;
+    margin: 5px;
+    font-size: 22px;
+}
+
+input {
+    height: 45px;
+    width: 200px;
 }

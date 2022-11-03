@@ -6,6 +6,7 @@ const fortuneSection = document.getElementById('fortune');
 const responseP = document.getElementById('response');
 
 const responses = [
+    'Death',
     'Yes, bestie go for it',
     'For sure',
     'I guess',
